@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Deangergoric</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+
+	<div class='nav'>
+		<p class='p-nav'><%= link_to 'About', home_index_path %>  | <%= link_to 'Resume', resume_page_path %> | <%= link_to 'Github', "https://github.com/gergoric26" %></p> 
+	</div>
+
+<%= yield %>
+
+	<div>
+		<h4>
+			<a href="mailto:gergoric_dean@yahoo.com">Contact Dean</a>
+		</h4>
+	</div>
+
+</body>
+
+</html>

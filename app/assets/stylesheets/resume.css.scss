@@ -1,0 +1,35 @@
+// Place all the styles related to the resume controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html {
+	font-family: "Century Gothic"
+}
+
+
+h3, h2 {
+	border-bottom-style: solid;
+	border-color: #A80000;
+	padding-bottom: 5px;
+}
+
+h1 {
+	color: #A80000;
+}
+
+span.tab{
+    padding: 0 88px; 
+}
+
+span.tab1{
+    padding: 0 102px; 
+}
+
+span.tab2{
+    padding: 0 92px; 
+}
+
+span.tab3{
+    padding: 0 78px; 
+}
