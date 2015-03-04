@@ -14,15 +14,18 @@
 
 
 body {
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 250px;
+	padding-right: 250px;
+  	background: url('/assets/1.png');
+  	background-size: cover;
+  	color: white;
 }
 
 .nav {
 	text-align: center;
 	padding-bottom: 30px;
-	padding-top: 20px;
-	background: ;
+	padding-top: 60px;
+	font-size: 30px;
 }
 
 .p-nav {
@@ -37,16 +40,19 @@ body {
 }
 
 .p-nav :hover {
-	color: #66FFFF;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
 a {
-	color: #606060;
+	color: #A80000;
 	text-shadow: 1px 1px 1px;
 	text-decoration: none;
+	font-family: "EraserDust";
+	font-size: 30px;
 }
 
 a:hover {
+	color: #E8E8E8;
 	text-decoration: none;
 }
